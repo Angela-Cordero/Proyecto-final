@@ -1,0 +1,42 @@
+/*Colors*/
+$color1:#6b086b;
+$color2:#e3a42f;
+$color3:#000;
+$color4:#fff;
+
+footer{
+    background-color: $color4;
+    color:$color2;
+    text-shadow: 1px 1px 0px $color3;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    font-family: "Montserrat";
+    height: 50px;
+    margin-top: 10px;
+}
+
+footer .redes a{
+    color:$color1;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+footer .book a{
+    text-decoration: none;
+    background-color: $color2;
+    font-family: 'Princess Sofia';
+    color: $color4;
+    float: right;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 50px; 
+    height: 40px;
+}
+
+.book a:hover{
+    background-color: $color1;
+    color: $color4;
+}
